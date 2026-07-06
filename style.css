@@ -1,16 +1,41 @@
+img, p {
+  margin: 0;
+}
+
 .accs-box {
   border: 2px solid lightgrey;
   border-radius: 4px;
-  box-shadow: 2px 2px 10px 0px lightgray;
+  box-shadow: 2px 2px 10px 0px lightgrey;
   display: inline-block;
   margin: 7px;
   vertical-align: top;
   width: 300px;
 }
 
-.pfp {
+.pfp-box, .pfp{
   height: 300px;
+}
+
+.pfp {
   width: 300px;
+}
+
+.mutual-person-box {
+  display: inline-block;
+  height: 30px;
+  margin-left: 5px;
+  width: 30px;
+}
+
+.mutual-pfp {
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+/* Temporary or Placeholder */
+.name-box {
+  display: block;
 }
 
 .name {
@@ -21,11 +46,21 @@
   margin-top: 10px;
 }
 
+.mutuals-amount-box {
+  display: inline-block;
+  vertical-align: top;
+}
+
 .mutuals {
   color: #a6a6a6;
   margin-bottom: 0px;
   margin-left: 5px;
   margin-top: 5px;
+}
+
+/* Temporary or Placeholder */
+.add-btn-box {
+  display: block;
 }
 
 .add-f {
