@@ -2,6 +2,7 @@ img, p {
   margin: 0;
 }
 
+/* Whole box */
 .accs-box {
   border: 2px solid lightgrey;
   border-radius: 4px;
@@ -12,32 +13,23 @@ img, p {
   width: 300px;
 }
 
-.box1, .pfp{
+/* vertical box 1 */
+.v-box1, .pfp{
   height: 300px;
 }
 
 .pfp {
   width: 300px;
 }
+/* end of vertical box 1 */
 
-.box2 {
-  
-}
-
-.mutual-person-box {
-  display: inline-block;
-  height: 30px;
-  margin-left: 5px;
-  width: 30px;
-}
-
-.mutual-pfp {
-  border-radius: 15px;
-  height: 29px;
-  width: 30px;
+/* vertical box 2 */
+.v-box2 {
+  height: 102px;
 }
 
 /* Temporary or Placeholder */
+/* name box */
 .name-box {
   display: block;
 }
@@ -49,9 +41,30 @@ img, p {
   margin-left: 5px;
   margin-top: 10px;
 }
+/* end of name box */
 
+/* horizontal box 1 */
+.h-box1 {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+
+/* mutual person box */
+.mutual-person-box {
+  height: 30px;
+  margin-left: 5px;
+  width: 30px;
+}
+
+.mutual-pfp {
+  border-radius: 15px;
+  height: 29px;
+  width: 30px;
+}
+/* end of mutual person box */
+
+/* mutual amount box */
 .mutuals-amount-box {
-  display: inline-block;
   vertical-align: top;
 }
 
@@ -61,8 +74,11 @@ img, p {
   margin-left: 5px;
   margin-top: 5px;
 }
+/* end of mutual person box */
+/* end of horizontal box 1 */
 
 /* Temporary or Placeholder */
+/* add button box */
 .add-btn-box {
   display: block;
 }
@@ -84,3 +100,6 @@ img, p {
   cursor: pointer;
   background-color: rgb(4, 99, 222);
 }
+/* end of add button */
+/* end of vertical box 2 */
+/* end of Whole box */
