@@ -5,19 +5,23 @@ img, p {
 .accs-box {
   border: 2px solid lightgrey;
   border-radius: 4px;
-  box-shadow: 2px 2px 10px 0px lightgrey;
+  box-shadow: 2px 2px 10px 0px lightgray;
   display: inline-block;
   margin: 7px;
   vertical-align: top;
   width: 300px;
 }
 
-.pfp-box, .pfp{
+.box1, .pfp{
   height: 300px;
 }
 
 .pfp {
   width: 300px;
+}
+
+.box2 {
+  
 }
 
 .mutual-person-box {
@@ -29,7 +33,7 @@ img, p {
 
 .mutual-pfp {
   border-radius: 15px;
-  height: 30px;
+  height: 29px;
   width: 30px;
 }
 
